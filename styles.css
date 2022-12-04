@@ -82,4 +82,42 @@ ul {
     background-color: aliceblue;
     margin: 60px 0 40px;
     padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 25%;
+    box-shadow: 0 4px 5px rgb(170, 210, 244);
 }
+
+ul h5 {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+}
+
+input {
+    width: 200%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-left: 40px;
+}
+
+a {
+    margin-left: 10px;
+}
+
