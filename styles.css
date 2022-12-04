@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+/* Font Sizes */
+html {
+    font-size: 16px;
+}
+
+body {
+    max-width: 1920px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    background-color: rgb(20, 20, 20);
+    overflow: visible;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+h2 {
+    font-size: 3.16rem;
+}
+
+h3 {
+    font-size: 2.37rem;
+}
+
+h4 {
+    font-size: 1.78rem;
+}
+
+h5 {
+    font-size: 1.33rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+#hero {
+    width: 30%;
+    height: 100vh;
+    background-image: url(./images/hero.jpeg);
+    background-size: cover;
+}
+
+#sign-up {
+    width: 70%;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 60px;
+}
+
+h4 {
+    padding: 0 40px;
+}
+
+ul {
+    height: 40vh;
+    background-color: aliceblue;
+    margin: 60px 0 40px;
+    padding: 40px;
+}
